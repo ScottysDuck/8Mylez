@@ -1,0 +1,9 @@
+/.vscode
+/bin
+/config
+/docker-compose.yml
+/files
+/public
+/src
+/var
+/vendor
