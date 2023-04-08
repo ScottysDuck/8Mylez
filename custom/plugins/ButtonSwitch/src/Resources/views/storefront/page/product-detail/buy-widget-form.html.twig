@@ -3,7 +3,7 @@
 
                             {% block page_product_detail_buy_button %}
                             
-                             {% if feature('v6.5.0.0') %}
+                            {% if feature('v6.5.0.0') %}
                                     <div class="d-grid">
                                         <button class="btn btn-primary btn-buy"
                                                 title="{{ "detail.addProduct"|trans|striptags }}"
@@ -12,11 +12,21 @@
                                         </button>
                                     </div>
                                 {% else %}
+                                    
                                     <button class="btn btn-primary btn-block btn-buy"
                                             title="{{ "detail.addProduct"|trans|striptags }}"
                                             aria-label="{{ "detail.addProduct"|trans|striptags }}">
-                                        {{ "MySnippet.AddedToShoppingCart"|trans|sw_sanitize }} 
+                                        {{ "detail.addProduct"|trans|sw_sanitize }} 
+                                        
                                     </button>
+                                    
+                                    <button class="btn btn-secondary btn-block"
+                                            title="{{ "detail.addProduct"|trans|striptags }}"
+                                            aria-label="{{ "detail.addProduct"|trans|striptags }}">
+                                            {{ "MySnippet.AddedToShoppingCart"|trans|sw_sanitize }}
+                                            
+                                    </button>
+                                    
                                 {% endif %}
                             
                                
