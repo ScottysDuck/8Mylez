@@ -18,5 +18,42 @@
   "asset": [
     "@Storefront",
     "app/storefront/src/assets"
-  ]
+  ],
+  "config": {
+    "blocks": {
+      "BuyFeedback": {
+        "label": {
+          "en-GB": "Buy Feedback"
+          }
+        }
+      },
+      
+      "fields": {
+        "activateBuyButtenFeedback": {
+          "label": {
+            "en-GB": "Use Buy Butten Feedback"        
+          },
+          "type": "switch",
+          "custom": {
+            "bordered": true
+          },
+          "value": false,
+          "editable": true,
+          "block": "BuyFeedback"
+        },
+      
+        "sw-colorpicker_input": {
+          "label": {
+            "en-GB": "Buy Button Feedback Color"
+          },
+          "type": "int",
+          "editable": true,
+          "block": "BuyFeedback" 
+        }
+        
+        
+        
+        
+    }
+  }
 }
