@@ -31,7 +31,7 @@
       "fields": {
         "activateBuyButtenFeedback": {
           "label": {
-            "en-GB": "Use Buy Butten Feedback"        
+            "en-GB": "Use Buy Button Feedback"        
           },
           "type": "switch",
           "custom": {

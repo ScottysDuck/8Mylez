@@ -1,0 +1,102 @@
+
+.row {
+    margin: 0;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center
+}
+
+.header-row {
+   padding: 19.645px 32px 19.645px 32px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+}
+@media (max-width: 768px){
+    .header-row {
+        justify-content: center
+    }
+    .header-logo-main {
+        display: flex;
+        justify-content: center;
+    }
+    .main-navigation-menu {
+    display: none;
+    }
+    .no-gutters {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.top-bar-nav {
+    display: none;
+}
+
+.is-ctl-navigation {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    background-image: url("/bundles/fashioneight/Background_woman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 24%;
+}
+
+.cms-element-image .cms-image-container {
+    display: none;
+}
+
+.logo-2 {
+    height: 22.79px;
+    padding-left: 5px;
+}
+.header-logo-main {
+    display: flex;
+  
+}
+@media (min-width: 576px){
+.header-logo-col {
+    padding-bottom: 0;
+}
+}
+
+.main-navigation-link {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.container {
+    max-width: 300px;
+    padding: 0;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 667px;    
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 862px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1004px;
+    }
+}
+
+
+
+
+
