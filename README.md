@@ -5,15 +5,13 @@ Hallo meine lieben,
 ich wollte mich mal mit einem Zwischenstand melden. Auch wenn ich zur Zeit
 viel Arbeiten musste habe ich erste Ergebnisse :)
 
-Ich habe gleich die erste Aufgabe für mich ausgewählt. 
-Den Farbwechsel der Buttons für 1sek ist mir gelungen.
-Ausserdem habe ich ein neues Snippet angelegt. Um dieses zu testen
-habe ich auf der Details-Seite einen weiteren Button erstellt mit dem neuen Snippet.
-Mir ist nur noch keine Idee gekommen wie ich es umgesetzt bekomme, 
-dass sich das Snippet ebenfalls für eine Sek ändert. 
+Ich habe die ersten beiden Aufagben begonnen.
+Der Farbwechsel für 1 sek mit JS ist mir gelungen und auch ein snipped habe ich hangelegt 
+(ist aktuell testweise auf der details Seite als zweiter Button). Leider hatte ich noch keine
+Idee wie ich onlick den Text ändern kann.
 
-Für wenig Zeit und zuvor noch keine Zeile JS geschriben zuhaben, 
-bin ich zufrieden und hoffe im Sommer noch mein Praktikum antreten zu dürfen.
+Das Design von FashionEight habe ich umgesetzt. Da fehlt noch entwas Feinschliff und paar Mediaquerys 
+aber das Grundgerüst steht schon mal :) 
 
 Liebe Grüße 
 Lars 
