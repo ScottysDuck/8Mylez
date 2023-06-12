@@ -10,8 +10,7 @@ Der Farbwechsel für 1 sek mit JS ist mir gelungen und auch ein snipped habe ich
 (ist aktuell testweise auf der details Seite als zweiter Button). Leider hatte ich noch keine
 Idee wie ich onlick den Text ändern kann.
 
-Das Design von FashionEight habe ich umgesetzt. Da fehlt noch entwas Feinschliff und paar Mediaquerys 
-aber das Grundgerüst steht schon mal :) 
+Das Design von FashionEight habe ich umgesetzt. Mit dem Resultat bin ich zu frieden :)
 
 Liebe Grüße 
 Lars 
